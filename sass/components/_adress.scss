@@ -1,0 +1,25 @@
+.adress {
+  width: 231px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contacts__adress {
+  margin-top: 20px;
+}
+.contacts__item {
+  margin-top: 9px;
+}
+.contacts__link {
+  text-decoration: none;
+  color: var(--footer-grey-color);
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

@@ -1,0 +1,21 @@
+.our-works {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &__list {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+  }
+  &__item {
+    margin-right: 8px;
+
+    border-radius: 4px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

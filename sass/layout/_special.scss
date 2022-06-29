@@ -1,0 +1,92 @@
+// .special {
+//   padding-top: 94px;
+//   padding-bottom: 47px;
+//   &__list {
+//     display: inline-flex;
+//   }
+//   &__item {
+//     margin-right: 30px;
+//     width: 270px;
+//     &:last-child {
+//       margin-right: 0px;
+//     }
+//     &::before {
+//       display: block;
+//       content: "";
+//       height: 120px;
+//       margin-bottom: 30px;
+//       background-color: #f5f4fa;
+//       border-radius: 4px;
+//       background-size: 70px;
+//       background-position: center;
+//       background-repeat: no-repeat;
+//     }
+//   }
+//   &__title {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     text-transform: uppercase;
+//     letter-spacing: 0.03em;
+//     margin-bottom: 10px;
+//   }
+//   &__text {
+//     font-size: 14px;
+//     line-height: 1.71;
+//     color: var(--header-adress-color);
+//     letter-spacing: 0.03em;
+//   }
+// }
+
+.special {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__item {
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 90px) / 4);
+    }
+    &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      margin-bottom: 30px;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      background-size: 70px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--header-adress-color);
+    letter-spacing: 0.03em;
+  }
+}
