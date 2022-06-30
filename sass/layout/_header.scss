@@ -1,13 +1,20 @@
 .header {
   border: 1px solid #ececec;
 }
-.nav {
-  display: flex;
-}
-.header__contacts {
-  margin-left: auto;
-}
 
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    margin-left: auto;
+  }
+  .nav {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__contacts {
+    margin: 0;
+  }
+}
 // .menu {
 //   display: flex;
 //   padding: 0;
@@ -152,9 +159,21 @@
   background-color: rgba(33, 33, 33, 0.2);
 }
 
-@media (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-top {
+    display: flex;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .header-top {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .nav {
+    display: flex;
   }
 }

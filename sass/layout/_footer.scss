@@ -159,10 +159,11 @@
     &:active {
       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
-    .contacts-foot {
-      text-align: center;
-    }
   }
+  .contacts-foot {
+    text-align: center;
+  }
+
   .logo.footer {
     color: var(--top-color);
     color: inherit;

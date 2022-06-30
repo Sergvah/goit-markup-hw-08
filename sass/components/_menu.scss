@@ -49,16 +49,18 @@
 //     border-radius: 2px;
 //   }
 // }
-
-.header__menu {
-  margin-left: 93px;
-  @media screen and (max-width: 1199px) {
-    & {
-      margin-right: 84px;
-      margin-left: 88px;
-    }
+@media screen and (min-width: 1200px) {
+  .header__menu {
+    margin-left: 93px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__menu {
+    display: flex;
+    margin-left: 88px;
+  }
+}
+
 .menu {
   display: flex;
   font-weight: 500;
