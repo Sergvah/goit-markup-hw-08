@@ -1013,7 +1013,6 @@ image {
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     width: 450px;
-    height: 609px;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -1371,32 +1370,7 @@ image {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .hero {
-    background-color: var(--footer-header-bgd-color);
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    min-height: 768px;
-    max-width: 1199px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-fon.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .hero__title {
-    color: var(--top-color);
-    font-size: 26px;
-    line-height: 1.62;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    width: 360px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .hero {
     background-color: var(--footer-header-bgd-color);
     text-align: center;
@@ -1571,6 +1545,11 @@ image {
 .comands__base-title {
   margin-bottom: 50px;
 }
+@media screen and (min-width: 480px) {
+  .comands__base-title {
+    margin-bottom: 30px;
+  }
+}
 
 .employee {
   padding-top: 30px;
@@ -1623,6 +1602,11 @@ image {
   .regular-customers__list {
     display: inline-flex;
     flex-direction: row;
+  }
+}
+@media screen and (min-width: 480px) {
+  .regular-customers__list {
+    margin-top: 30px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1880,7 +1864,7 @@ image {
     margin-bottom: 20px;
   }
   .subscribe__input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1964,7 +1948,7 @@ image {
     margin-bottom: 20px;
   }
   .subscribe__input {
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding-top: 15px;
     padding-bottom: 15px;

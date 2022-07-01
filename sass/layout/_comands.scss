@@ -88,6 +88,9 @@
   }
   &__base-title {
     margin-bottom: 50px;
+    @media screen and (min-width: 480px) {
+      margin-bottom: 30px;
+    }
   }
 }
 .employee {

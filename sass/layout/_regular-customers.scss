@@ -76,7 +76,11 @@
       display: inline-flex;
       flex-direction: row;
     }
+    @media screen and (min-width: 480px) {
+      margin-top: 30px;
+    }
   }
+
   &__item {
     @media screen and (min-width: 480px) {
       width: calc((100% - 1 * 30px) / 2);
