@@ -158,8 +158,8 @@ image {
   }
 
   .header__logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -171,6 +171,7 @@ image {
   .header__menu {
     display: flex;
     margin-left: 88px;
+    margin-right: 84px;
   }
 }
 .menu {
@@ -1399,10 +1400,8 @@ image {
   .hero {
     background-color: var(--footer-header-bgd-color);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    min-height: 480px;
-    max-width: 767px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-fon.jpg);
     background-size: cover;
     background-position: center;
