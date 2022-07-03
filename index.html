@@ -160,12 +160,31 @@
           <h2 class="base-title comands__base-title">Наша команда</h2>
           <ul class="comands__list">
             <li class="comands__item">
-              <img
-                class="comands__img"
-                srcset="./images/Igor.jpg 1x, ./images/igor-2x.jpg 2x"
-                src="./images/Igor.jpg"
-                alt="Product Designer"
-              />
+              <picture>
+                <source
+                  srcset="./images/Igor.jpg 1x, ./images/igor-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/igor-tablet.jpg    1x,
+                    ./images/igor-tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/igor-mob.jpg 1x, ./images/igor-mob-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="comands__img"
+                  src="./images/Igor.jpg"
+                  alt="Product Designer"
+                  width="450px"
+                />
+              </picture>
               <div class="employee">
                 <h3 class="employee__title">Игорь Демьяненко</h3>
                 <p class="employee__text" lang="en">Product Designer</p>
@@ -208,12 +227,30 @@
               </div>
             </li>
             <li class="comands__item">
-              <img
-                class="comands__img"
-                srcset="./images/Olga.jpg 1x, ./images/olga-2x.jpg 2x"
-                src="./images/Olga.jpg"
-                alt="Fronted Developer"
-              />
+              <picture>
+                <source
+                  srcset="./images/Olga.jpg 1x, ./images/olga-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga-tablet.jpg    1x,
+                    ./images/olga-tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/olga-mob.jpg 1x, ./images/olga-mob-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="comands__img"
+                  src="./images/Olga.jpg"
+                  alt="Fronted Developer"
+                  width="450px"
+                />
+              </picture>
+
               <div class="employee">
                 <h3 class="employee__title">Ольга Репина</h3>
                 <p class="employee__text" lang="en">Fronted Developer</p>
@@ -256,12 +293,33 @@
               </div>
             </li>
             <li class="comands__item">
-              <img
-                class="comands__img"
-                srcset="./images/Nikolay.jpg 1x, ./images/nikolay-2x.jpg 2x"
-                src="./images/Nikolay.jpg"
-                alt="Marketing"
-              />
+              <picture>
+                <source
+                  srcset="./images/Nikolay.jpg 1x, ./images/nikolay-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay-tablet.jpg    1x,
+                    ./images/nikolay-tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay-mob.jpg    1x,
+                    ./images/nikolay-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="comands__img"
+                  src="./images/Nikolay.jpg"
+                  alt="Marketing"
+                  width="450px"
+                />
+              </picture>
+
               <div class="employee">
                 <h3 class="employee__title">Николай Тарасов</h3>
                 <p class="employee__text" lang="en">Marketing</p>
@@ -304,12 +362,33 @@
               </div>
             </li>
             <li class="comands__item">
-              <img
-                class="comands__img"
-                srcset="./images/Mihail.jpg 1x, ./images/mihail-2x.jpg 2x"
-                src="./images/Mihail.jpg"
-                alt="UI Designer"
-              />
+              <picture>
+                <source
+                  srcset="./images/Mihail.jpg 1x, ./images/mihail-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/mihail-tablet.jpg    1x,
+                    ./images/mihail-tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mihail-mob.jpg    1x,
+                    ./images/mihail-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="comands__img"
+                  src="./images/Mihail.jpg"
+                  alt="UI Designer"
+                  width="450px"
+                />
+              </picture>
+
               <div class="employee">
                 <h3 class="employee__title">Михаил Ермаков</h3>
                 <p class="employee__text" lang="en">UI Designer</p>
