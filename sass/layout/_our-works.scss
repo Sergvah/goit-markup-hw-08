@@ -19,6 +19,30 @@
 //     }
 //   }
 // }
+.our-works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    border-radius: 4px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 8px;
+    margin-bottom: 15px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .our-works {
