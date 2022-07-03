@@ -55,6 +55,9 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-bgd-color);
+  &__list {
+    justify-content: center;
+  }
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -83,12 +86,12 @@
   &__img {
     display: block;
 
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
   &__base-title {
     margin-bottom: 50px;
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 1199px) {
       margin-bottom: 30px;
     }
   }
