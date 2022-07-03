@@ -149,13 +149,15 @@
   flex-direction: row;
 }
 .mob-social__item {
-  margin-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mob-social__item:not(:last-child) {
   padding-right: 10px;
+  margin-right: 10px;
 }
 .mob-social__link {
   text-decoration: none;
-  width: 22px;
+
   height: 0px;
   font-weight: 500;
   font-size: 18px;

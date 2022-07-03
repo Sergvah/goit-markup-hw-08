@@ -33,10 +33,15 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.tab-cont-soc {
-  margin-bottom: 60px;
+@media screen and (max-width: 479px) {
+  .tab-cont-soc {
+    margin-bottom: 60px;
+  }
+  .contacts-foot {
+    text-align: center;
+    margin-bottom: 60px;
+  }
 }
-
 .subscribe__btn {
   display: flex;
   align-items: center;
@@ -72,10 +77,6 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-.contacts-foot {
-  text-align: center;
-  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
