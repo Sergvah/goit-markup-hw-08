@@ -685,7 +685,7 @@ image {
     position: absolute;
     top: 0;
     height: 100%;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -713,7 +713,7 @@ image {
     position: absolute;
     top: 0;
     height: 100%;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
