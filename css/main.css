@@ -1096,6 +1096,8 @@ image {
 
 .check-done {
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
@@ -1114,13 +1116,12 @@ image {
 
 .link-dogovor {
   color: #2196f3;
-  display: block;
   border-bottom: 1px solid var(--accent-color);
   text-decoration: none;
   line-height: 0.9;
 }
 .link-dogovor__done {
-  margin-left: 4px;
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 1200px) {
