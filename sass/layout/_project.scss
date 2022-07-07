@@ -32,7 +32,6 @@
 
     &__item {
       background-color: #ffffff;
-      width: 100%;
     }
     &__link {
       display: block;
@@ -93,7 +92,12 @@
       background-color: #ffffff;
       width: calc((100% - 30px) / 2);
     }
+    &__item:nth-child(-n + 2) {
+      height: 440px;
+    }
+
     &__link {
+      width: 354px;
       display: block;
       text-decoration: none;
       transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

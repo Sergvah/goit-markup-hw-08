@@ -82,7 +82,7 @@
       display: inline-flex;
       flex-direction: row;
     }
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
       margin-top: 30px;
     }
   }
@@ -92,9 +92,8 @@
       width: calc((100% - 1 * 30px) / 2);
       text-align: center;
     }
-    @media screen and (min-width: 768px) {
-      width: calc((100% - 2 * 30px) / 3);
-      text-align: center;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: calc((100% - 60px) / 3);
     }
   }
 
@@ -115,6 +114,12 @@
     &:focus {
       fill: var(--accent-color);
       border-color: var(--accent-color);
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: 226px;
+    }
+    @media screen and (max-width: 767px) {
+      width: 210px;
     }
   }
 }

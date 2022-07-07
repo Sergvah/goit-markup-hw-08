@@ -332,8 +332,8 @@
 }
 
 .check-done {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
+
   align-items: center;
   font-weight: 400;
   font-size: 12px;

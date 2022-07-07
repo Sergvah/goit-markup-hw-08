@@ -157,6 +157,8 @@
   .hero {
     min-height: 400px;
     max-width: 768px;
+    background-size: cover;
+
     background-color: var(--footer-header-bgd-color);
     background-image: linear-gradient(
         to right,
