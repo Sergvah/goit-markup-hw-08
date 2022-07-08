@@ -353,13 +353,13 @@
 }
 .link-dogovor {
   color: #2196f3;
-
+  display: block;
   border-bottom: 1px solid var(--accent-color);
   text-decoration: none;
 
   line-height: 0.9;
   &__done {
-    margin-top: 5px;
+    margin-left: 4px;
   }
 }
 
