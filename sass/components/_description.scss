@@ -1,9 +1,12 @@
 .description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding-right: 24px;
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
-  flex-grow: 1;
+
   border-right: 1px solid rgba(238, 238, 238, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
