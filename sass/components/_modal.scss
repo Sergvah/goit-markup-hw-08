@@ -274,6 +274,7 @@
 
     resize: none;
     outline: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &__text-area:focus {
     border-color: #2196f3;
@@ -314,7 +315,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
   &__input:focus {
@@ -449,6 +450,8 @@
 
       resize: none;
       outline: none;
+
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__text-area:focus {
       border-color: #2196f3;
@@ -489,6 +492,7 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
       padding-left: 42px;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
       outline: none;
     }
@@ -621,6 +625,8 @@
 
       resize: none;
       outline: none;
+
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__text-area:focus {
       border-color: #2196f3;
@@ -661,7 +667,7 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
       padding-left: 42px;
-
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       outline: none;
     }
     &__input:focus {
